@@ -1,7 +1,7 @@
 Jimgur
 ======
 
-[Jimgur](http://www.reddit.com/r/jimgur/wiki/index) is a Reddit bot that links directly to imgur images.
+[Jimgur](http://www.reddit.com/r/jimgur/wiki/index) is a Reddit bot that links directly to imgur images. This helps when accessing Reddit from networks with content filters which block links to `http://imgur.com`.
 
 "Register" your bot on the subreddit [r/jimgur](http://www.reddit.com/r/jimgur/)
 
@@ -19,7 +19,7 @@ Jimgur works like this:
 
 ##Deploy Jimgur
 
-Having multiple Jimgur bots are useful because each one can be responsible for one or two subreddits.
+Having multiple Jimgur bots is useful because each one can be responsible for one or two subreddits.
 
 1. Create a new reddit account for the bot, call it whatever you want.
 
