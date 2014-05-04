@@ -21,6 +21,10 @@ Jimgur works like this:
 
 Having multiple Jimgur bots is useful because each one can be responsible for one or two subreddits.
 
+Make sure you have [PRAW](https://praw.readthedocs.org/en/latest/) installed:
+
+   `pip install praw`
+
 1. Create a new reddit account for the bot, call it whatever you want.
 
 2.  Edit this line with your information:
