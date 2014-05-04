@@ -23,7 +23,7 @@ Having multiple Jimgur bots are useful because each one can be responsible for o
 
 2.  Edit this line with your information:
 
-    r.login('username','password')
+   `r.login('username','password')`
 
 2. Register your application with [imgur API](https://api.imgur.com/)
 
@@ -31,6 +31,6 @@ Having multiple Jimgur bots are useful because each one can be responsible for o
 
 4. Edit this line with your Client ID:
 
-    request.add_header("Authorization","Client-ID "+"YOUR_CLIENT_ID")
+   `request.add_header("Authorization","Client-ID "+"YOUR_CLIENT_ID")`
 
 5. Open your command line and run `python jimgur.py`
