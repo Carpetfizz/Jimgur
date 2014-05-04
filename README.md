@@ -1,7 +1,7 @@
 Jimgur
 ======
 
-[Jimgur](http://www.reddit.com/r/jimgur/wiki/index) is a Reddit bot that links directly to imgur images. This helps when accessing Reddit from networks with content filters which block links to `http://imgur.com`.
+[Jimgur](http://www.reddit.com/r/jimgur/wiki/index) is a Reddit bot that links directly to imgur images and album images. This helps when accessing Reddit from networks with content filters which block links to `http://imgur.com`.
 
 "Register" your bot on the subreddit [r/jimgur](http://www.reddit.com/r/jimgur/)
 
@@ -15,7 +15,7 @@ Jimgur works like this:
 
 * Authenticates and gets data from [imgur API](https://api.imgur.com/)
 
-* Posts comment with direct link to image on reddit
+* Posts comment with direct link to image(s) on reddit
 
 ##Deploy Jimgur
 
