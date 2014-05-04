@@ -3,17 +3,17 @@ Jimgur
 
 Reddit bot that direct links to imgur images
 
-###How it works
+##How it works
 
 Jimgur works like this:
 
-1. Gets submissions using [PRAW](https://praw.readthedocs.org/en/latest/)
+* Gets submissions using [PRAW](https://praw.readthedocs.org/en/latest/)
 
-2. Checks submission URLs for `http://imgur.com/` or `http://imgur.com/a`
+* Checks submission URLs for `http://imgur.com/` or `http://imgur.com/a`
 
-3. Authenticates and gets data from [imgur API](https://api.imgur.com/)
+* Authenticates and gets data from [imgur API](https://api.imgur.com/)
 
-5. Posts comment with direct link to image on reddit
+* Posts comment with direct link to image on reddit
 
 ##Deploy Jimgur
 
