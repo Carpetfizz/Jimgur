@@ -36,7 +36,7 @@ while True:
 				for link in links_list:
 					post_body+=link+"\n\n"
 				try:
-					submission.add_comment("#**Direct Link to Image(s)**\n\n%s\n\n[What's this?](http://www.reddit.com/r/jimgur/wiki/index)"%post_body)
+					submission.add_comment("#**Direct Link to Image(s)**\n\n%s\n\n*****\n\n[What's this?](http://www.reddit.com/r/jimgur/wiki/index)"%post_body)
 					print("Commented: "+post_body)
 				except praw.errors.RateLimitExceeded as error:
 					print "Sleeping for "+str(error.sleep_time)+"s"
