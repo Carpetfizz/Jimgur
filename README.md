@@ -1,7 +1,9 @@
 Jimgur
 ======
 
-Reddit bot that direct links to imgur images
+[Jimgur](http://www.reddit.com/r/jimgur/wiki/index) is a Reddit bot that links directly to imgur images.
+
+"Register" your bot on the subreddit [r/jimgur](http://www.reddit.com/r/jimgur/)
 
 ##How it works
 
