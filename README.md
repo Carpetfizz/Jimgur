@@ -41,6 +41,6 @@ Make sure you have [PRAW](https://praw.readthedocs.org/en/latest/) installed:
    
 6. Edit this line with the subreddits you want to watch:
 
-   `subreddit = r.get_subreddit('gaming+pics+aww+fitness+movies+hiphopimages')`
+   `subreddit = r.get_subreddit('gaming+pics+movies')`
 
 7. Open your command line and run `python jimgur.py`
