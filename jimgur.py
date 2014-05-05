@@ -42,6 +42,6 @@ while True:
 					print "Sleeping for "+str(error.sleep_time)+"s"
 					time.sleep(error.sleep_time)
 					continue
-				except praw.errors.APIException;
+				except praw.errors.APIException:
 					continue
 
