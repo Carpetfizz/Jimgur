@@ -19,7 +19,6 @@ while True:
 				image_id = url.rsplit('/',1)[1]
 				request = urllib2.Request("https://api.imgur.com/3/image/%s"%image_id)
 				request.isimage = True
-			already_done.append(submission.id)
 			if request:
 				request.add_header("Authorization","Client-ID "+"YOUR_CLIENT_ID")
 				try:
@@ -37,7 +36,8 @@ while True:
 					post_body+=link+"\n\n"
 				try:
 					submission.add_comment("#**Direct Link to Image(s)**\n\n%s\n\n*****\n\n[What's this?](http://www.reddit.com/r/jimgur/wiki/index)"%post_body)
-					print("Commented: "+post_body)
+					already_done.append(submission.id)
+					print("Commented:\n"+post_body)
 				except praw.errors.RateLimitExceeded as error:
 					print "Sleeping for "+str(error.sleep_time)+"s"
 					time.sleep(error.sleep_time)
