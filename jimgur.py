@@ -27,7 +27,10 @@ while True:
 						links_list.append(response[u'data'][u'link'])
 					else:
 						for image in response[u'data']:
-							links_list.append(image[u'link'])
+							try:
+								links_list.append(image[u'link'])
+							except:
+								continue
 				except urllib2.HTTPError:
 					continue
 			if len(links_list) > 0:
