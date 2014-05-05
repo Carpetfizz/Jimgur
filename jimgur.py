@@ -5,8 +5,8 @@ r = praw.Reddit("Jimgur image linker by /u/carpetfizz")
 r.login('username','password')
 already_done = []
 while True:
-	subreddit = r.get_subreddit('gaming+pics+aww+fitness+movies+hiphopimages')
-	for submission in subreddit.get_hot(limit=100):
+	subreddit = r.get_subreddit('gaming+pics+movies')
+	for submission in subreddit.get_new(limit=100):
 		url = submission.url
 		if submission.id not in already_done:
 			links_list = []
