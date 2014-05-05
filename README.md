@@ -31,12 +31,16 @@ Make sure you have [PRAW](https://praw.readthedocs.org/en/latest/) installed:
 
    `r.login('username','password')`
 
-2. Register your application with [imgur API](https://api.imgur.com/)
+3. Register your application with [imgur API](https://api.imgur.com/)
 
-3. Get your Client ID from imgur
+4. Get your Client ID from imgur
 
-4. Edit this line with your Client ID:
+5. Edit this line with your Client ID:
 
    `request.add_header("Authorization","Client-ID "+"YOUR_CLIENT_ID")`
+   
+6. Edit this line with the subreddits you want to watch:
 
-5. Open your command line and run `python jimgur.py`
+   `subreddit = r.get_subreddit('gaming+pics+aww+fitness+movies+hiphopimages')`
+
+7. Open your command line and run `python jimgur.py`
